@@ -1,0 +1,60 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Istok Web', sans-serif;
+}
+
+strong {
+	color: #3F5F77;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #16354D; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-color: #A7AFB5;
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 450px;
+  font-family: 'Istok Web', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-dark {
+  background-color: #16354D;
+  border-color: #16354D; }
+
+.btn-dark:hover {
+  background-color: #16364D;
+  border-color: #16364D;
+  border-width: 5px;
+  cursor: pointer;
+}
